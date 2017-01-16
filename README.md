@@ -19,7 +19,7 @@
 
 Клонируйте репозиторий
 
-    $git clone https://github.com/leoniv/showdownjs_ones_example.git
+    $git clone https://github.com/leoniv/showdownjs_ones_example.git && cd showdownjs_ones_example
 
 Установите зависимости
 

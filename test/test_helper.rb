@@ -44,10 +44,6 @@ class ShowdownjsOnesExampleTest
     self.class.enterprise
   end
 
-  def thread
-    @thread ||= Thread.current
-  end
-
   trap 'SIGINT' do
     puts 'Bye ;)'
     exit!
@@ -58,7 +54,6 @@ class ShowdownjsOnesExampleTest
   end
 
   def run
-    thread
     designer.run
     enterprise.run
     wait

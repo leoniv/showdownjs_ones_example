@@ -10,7 +10,7 @@ class ShowdownjsOnesExampleTest
 
   AssTests::InfoBases.describe do
     file :showdownjs_ones_example do
-      platform_require '~> 8.3.9.0'
+      platform_require '~> 8.3.9'
       template ShowdownjsOnesExampleTest::Fixt::APP_CF
       directory ShowdownjsOnesExampleTest::Fixt::TMP_DIR
     end
